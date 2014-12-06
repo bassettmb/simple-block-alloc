@@ -4,8 +4,6 @@
 #include <new>
 #include <utility>
 
-namespace cs251 {
-
 template <class T>
 Arena<T>::Arena(void) noexcept {}
 
@@ -77,6 +75,4 @@ bool Arena<T>::operator==(const Arena &other) const noexcept {
 template <class T>
 bool Arena<T>::operator!=(const Arena &other) const noexcept {
     return !(*this == other);
-}
-
 }

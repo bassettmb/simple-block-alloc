@@ -47,8 +47,6 @@ private:
 
 };
 
-}
-
 #include "Arena.tpp"
 
 #endif // !ARENA_H
